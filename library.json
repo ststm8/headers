@@ -1,9 +1,9 @@
 {
-    "name": "STM8_headers",
+    "name": "ststm8/headers",
     "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": "https://github.com/gicking/STM8_headers.git"
+        "url": "https://github.com/ststm8/headers.git"
     },
     "authors": {
         "name": "Georg Icking-Konert",
