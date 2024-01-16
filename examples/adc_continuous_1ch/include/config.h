@@ -1,8 +1,8 @@
 /**
   \file config.h
-   
+
   \brief set project configurations
-   
+
   set project configurations like used device or board etc.
 */
 
@@ -16,7 +16,7 @@
 /*----------------------------------------------------------
     INCLUDE FILES
 ----------------------------------------------------------*/
-#include "../../include/STM8S105K6.h"
+#include <STM8S003F3.h>
 
 
 /*-----------------------------------------------------------------------------

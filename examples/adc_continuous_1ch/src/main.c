@@ -20,7 +20,7 @@
 #define _MAIN_          // required for global variables
   #include "adc1.h"
   #include "timer4.h"
-  #include "uart2.h"
+  #include "uart.h"
 #undef _MAIN_
 
 
@@ -76,8 +76,7 @@ void main (void) {
   // init timer TIM4 for 1ms
   TIM4_init();
 
-  // init UART2 for 19.2kBaud
-  UART2_begin(19200);
+  uartbegin(115200);
 
   // enable interrupts
   ENABLE_INTERRUPTS();
