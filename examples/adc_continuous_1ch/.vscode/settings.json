@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.g4": "antlr",
+        "*.js": "javascript",
+        "uart.h": "c"
+    }
+}
